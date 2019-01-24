@@ -1,8 +1,14 @@
 %%% !TEX TS-program = XeLaTeX
-\documentclass[oneside,msc,12pt]{AUTthesis}
+\documentclass[
+			   oneside,
+			   msc,
+			   12pt
+			   ]{AUTthesis}
 
 % دستورات مربوط به فراخوانی بسته‌ها
 
+%\usepackage{import}
+%\subimport{pages}
 \input{commands}
 % برای نسخه نهایی پایان‌نامه حتماً hyperref را غیرفعال کنید.
 
@@ -12,32 +18,34 @@
 \begin{document}
 	\baselineskip=.75cm
 	\linespread{1.75}
-	\input{fa_title}
+
+	% عنوان ----------------------------------------------------------------
+	\input {pages/fa_title}
+	
 	% تاییدیه دفاع ---------------------------------------------------------
-	\input{taid}
+	\input {pages/taid}
 	
 	% سپاسگزاری  -----------------------------------------------------------
-	\input{acknowledgement}
+	\input {pages/acknowledgement}
 	
 	% شماره گذاری صفحات قبل از فصل اول با حروف ابجد ------------------------
 	\pagenumbering{alph}
 	
 	% نمایش صفحات فهرست مطالب - فهرست اشکال و جداول
-	\input{TOC-TOF-LOT}
+	\input {pages/TOC-TOF-LOT}
 	
 	% فهرست نمادها ---------------------------------------------------------
-	
-	\input{list-of-symbols}
+	\input {pages/list-of-symbols}
 	
 	\pagenumbering{arabic}
 	\pagestyle{style1}
 	
 	% فصل ها  --------------------------------------------------------------
-	\include{chapter1}
-	%\include{chapter2}
-	%\include{chapter3}
-	%\include{chapter4}
-	%\include{chapter5}
+	\include {pages/chapter1}
+	\include {pages/chapter2}
+	\include {pages/chapter3}
+	\include {pages/chapter4}
+	\include {pages/chapter5}
 	
 
 	% مراجع و پیوست ها -----------------------------------------------------
@@ -58,6 +66,6 @@
 	\printindex
 	\pagestyle{style7}
 	\include{en-abstract}
-	\input{en_title}
+	\input {pages/en_title}
 	
 \end{document}

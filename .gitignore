@@ -37,3 +37,10 @@ build/dicen2fa.aux
 build/dicfa2en.aux
 build/en-abstract.aux
 missfont.log
+*.aux
+*.lot
+*.log
+*.lof
+*.out
+*.gz
+*.idx
