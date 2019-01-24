@@ -1,13 +1,13 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
-\contentsline {chapter}{فهرست اشکال}{ج}{section*.1}
-\contentsline {chapter}{فهرست جداول}{د}{section*.2}
+\contentsline {chapter}{فهرست اشکال}{ج}{section*.3}
+\contentsline {chapter}{فهرست جداول}{د}{section*.4}
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}
 \contentsline {section}{\numberline {1-1}مسئله پژوهش}{2}{section.1.1}
 \contentsline {section}{\numberline {1-2}ضرورت انجام پژوهش}{2}{section.1.2}
 \contentsline {section}{\numberline {1-3}ساختار پایان‌نامه}{2}{section.1.3}
-\par عنوان\hfill صفحه \par 
-\setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {2}ادبیات پژوهش‌}{3}{chapter.2}
 \contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
 \contentsline {section}{\numberline {2-2}مفاهیم نظری}{4}{section.2.2}
@@ -27,4 +27,8 @@
 \contentsline {chapter}{\numberline {5}نتیجه‌گیری}{9}{chapter.5}
 \contentsline {section}{\numberline {5-1}نتیجه‌گیری}{10}{section.5.1}
 \contentsline {section}{\numberline {5-2}پیشنهادات}{10}{section.5.2}
+\contentsline {chapter}{منابع و مراجع}{11}{appendix*.5}
+\contentsline {chapter}{پیوست}{12}{appendix*.6}
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{13}{appendix*.8}
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{15}{appendix*.9}
 \contentsfinish 
