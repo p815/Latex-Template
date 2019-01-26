@@ -1,4 +1,4 @@
-
+*.pdf
 thesis.blg
 thesis.bbl
 build/thesis.toc
