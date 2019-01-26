@@ -7,3 +7,6 @@
 *.gz
 *.idx
 *.toc
+*.bbl
+*.blg
+*.pdf
